@@ -1,0 +1,83 @@
+# Build Folders
+bin/
+obj/
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNetToolSettings
+.dotnet_tool
+
+# Log files
+*.log
+
+# NPM Packages
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio for Mac
+.idea/
+.vscode/
+*.sln.ide
+*.sln.ide.csproj
+*.sln.ide.nested
+
+# Rider
+.idea/
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# Files built by JetBrains Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Compiled Dynamic Link Libraries
+*.dll
+
+# Compiled Windows Executables
+*.exe
+
+# Compiled Windows Libraries
+*.lib
+
+# Compiled Windows Metadata Files
+*.winmd
+
+# Publish folder
+Publish/
+
+# Visual Studio Code
+.history/
+
+# Certificates
+*.pfx
+*.p12
+
+# EF Core Migrations
+Migrations/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
