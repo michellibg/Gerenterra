@@ -1,6 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo à Página Inicial</h1>
+    <button class="button" onclick="navigateTo('ClientesController')">Clientes</button>
+    <button class="button" onclick="navigateTo('EmpresasController')">Empresas</button>
+    <button class="button" onclick="navigateTo('UsuariosController')">Usuarios</button>
 
-<p>Use this page to detail your site's privacy policy.</p>
+    <script>
+        function navigateTo(controllerName) {
+            window.location.href = '/' + controllerName;
+        }
+    </script>
+</body>
+</html>
